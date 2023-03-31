@@ -12,5 +12,6 @@ import Layout from './components/Layout.vue'
 .app-container {
   width: 100%;
   height: 100%;
+  user-select: none;
 }
 </style>

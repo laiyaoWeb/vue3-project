@@ -1,4 +1,4 @@
-//http.ts
+// http.ts
 import axios, { AxiosRequestConfig } from 'axios'
 import NProgress from 'nprogress'
 
@@ -10,7 +10,7 @@ axios.interceptors.request.use(
   (config): AxiosRequestConfig<any> => {
     const token = window.sessionStorage.getItem('token')
     if (token) {
-      //@ts-ignore
+      // @ts-ignore
       config.headers.token = token
     }
     return config
