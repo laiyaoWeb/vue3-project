@@ -1,10 +1,13 @@
 <script setup lang="ts">
+// import '@/mq/mqttClient'
 import Layout from './components/Layout.vue'
+import HomeView from './pages/home/index.vue'
 </script>
 
 <template>
   <div class="app-container">
-    <Layout></Layout>
+    <HomeView />
+    <!-- <Layout></Layout> -->
   </div>
 </template>
 
